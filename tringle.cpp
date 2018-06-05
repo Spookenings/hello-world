@@ -7,7 +7,7 @@ Calculates the area of a square or triangle.
 using namespace std;
 
 float areaTriangle(float, float);
-float areaSquare(float);
+float Squarea(float);
 int main()
 {
     char shape;
@@ -19,7 +19,7 @@ int main()
         float base;
         cout << "Enter the measurement of the side of the square: ";
         cin >> base;
-        cout << "Area of the square is " << areaSquare(base) << "." << endl;
+        cout << "Area of the square is " << Squarea(base) << "." << endl;
     }
     else if (shape == 't')
     {
@@ -38,7 +38,7 @@ int main()
     return 0;
 }
 
-float areaSquare(float side)
+float Squarea(float side)
 {
    return(side*side);
 }
