@@ -1,5 +1,5 @@
 # hello-world
-Practice makes perfect
+
 ANALYSIS:
 
 Inputs:
